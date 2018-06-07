@@ -1572,6 +1572,8 @@ Mesh files no longer used:
 	<property name="CustomIcon" value="stoneAxe"/> <property name="CustomIconTint" value="ffffb0"/>
 	<property class="Action0">
 		<property name="Stamina_usage" value="0"/>
+		<property name="ToolCategory.Butcher" value="0.75" param1="10"/>
+		<property name="ToolCategory.harvestingTools" value="1.4" param1="1"/>
 	</property>
 	<property class="Attributes">
 		<property name="EntityDamage" value="1,2"/>
