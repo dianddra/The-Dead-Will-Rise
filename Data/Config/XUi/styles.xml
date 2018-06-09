@@ -5,9 +5,9 @@
 		<style_entry name="select_color" value="[beige]"/>
 		<style_entry name="press_color" value="[limeGreen]"/>
 		<style_entry name="final_pressed_color" value="[lightGrey]"/>
-		<style_entry name="background_color" value="[mediumGrey]"/>
+		<style_entry name="background_color" value="[black2]"/>
 		<style_entry name="highlight_color" value="[hoverColor]"/>
-		<style_entry name="holding_color" value="[green]"/>
+		<style_entry name="holding_color" value="[red]"/>
 		<style_entry name="width" value="82"/>
 		<style_entry name="height" value="82"/>
 		<style_entry name="hover_icon_grow" value="1.5"/>
@@ -35,6 +35,7 @@
 		<style_entry name="lightGrey" 		value="128,128,128"/>
 		<style_entry name="white" 				value="255,255,255"/>
 		<style_entry name="black" 				value="0,0,0"/>
+		<style_entry name="black2" 				value="0,0,0,255"/>
 		<style_entry name="red" 					value="255,0,0"/>
 		<style_entry name="green" 					value="0,255,0"/>
 		<style_entry name="transparent" 	value="0,0,0,0"/>
