@@ -7017,7 +7017,7 @@ kind of free
 	<property name="Class" value="Gore"/>
 	<property name="CreativeMode" value="Dev"/>
 	<property name="Material" value="organic"/>
-	<property name="MaxDamage" value="1"/>
+	<property name="MaxDamage" value="350"/>
 	<property name="Shape" value="ModelEntity"/>
 	<property name="Model" value="Entities/Gore/gore_block1_Prefab"/>
 	<property name="ImposterDontBlock" value="true"/>
