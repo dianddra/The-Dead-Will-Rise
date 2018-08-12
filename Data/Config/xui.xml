@@ -1,15 +1,34 @@
 <xui>
-<!-- S420 Start -->
-	<!--ruleset name="default" scale="1.255" stackpanel_scale="1.05"--> <!--Stock-->
-	<ruleset name="default" scale="1.10" stackpanel_scale="0.95">
-<!-- S420 End -->
+
+	<!-- 
+
+		Origin - "7 Days to Die" UI Mod by Tritox:
+
+		Game version:	A16.2(b7)
+		Mod version:	1.01
+		Date:			4.8.2017
+	
+	-->
+
+	<!-- ====================== xui.xml starts ======================= -->
+
+	<!--	
+		
+		Additions to default content: 
+
+			1) Line: 110   - added: new window (HUDInfoPanel)
+			2) Line: 131  - added: new window (HUDTempWaterFood)
+			3) Line: 132  - added: new window (HUDXpBar) 
+			4) Line: 133  - added: new window (HUDBuffDurations) 
+	
+	-->
+
+	<ruleset name="default" scale="1.255" stackpanel_scale="1.05">
+	
 		<window_group name="crafting" controller="XUiC_CraftingWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
-<!-- S420 End -->
+			<window name="windowCraftingQueue"/>
 		</window_group>
 		
 		<window_group name="character" controller="XUiC_CharacterSheetWindowGroup">
@@ -22,54 +41,37 @@
 		<window_group name="workstation_campfire" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
+			<window name="windowCraftingQueue"/>
 			<window name="windowToolsCampfire" />
 			<window name="windowFuel" />
-			<!--window name="windowOutput" /--> <!--Stock-->
-			<window name="S420windowOutput" />
-<!-- S420 End -->
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_forge" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
+			<window name="windowCraftingQueue"/>
 			<window name="windowToolsForge" />
 			<window name="windowFuel" />
-			<!--window name="windowForgeInput" /--> <!--Stock-->
-			<window name="S420windowForgeInput" />
-			<!--window name="windowOutput" /--> <!--Stock-->
-			<window name="S420windowOutput" />
-<!-- S420 End -->
+			<window name="windowForgeInput" />
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="workstation_cementMixer" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
-			<!--window name="windowOutput" /--> <!--Stock-->
-			<window name="S420windowOutput" />
-<!-- S420 End -->
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>		
 		
 		<window_group name="workstation_workbench" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
-			<!--window name="windowOutput" /--> <!--Stock-->
-			<window name="S420windowOutput" />
-<!-- S420 End -->
+			<window name="windowCraftingQueue"/>
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 			<window name="windowCombine" />
 		</window_group>				
@@ -77,21 +79,14 @@
 		<window_group name="workstation_chemistryStation" controller="XUiC_WorkstationWindowGroup">
 			<window name="windowCraftingList"/>
 			<window name="craftingInfoPanel"/>
-<!-- S420 Start -->
-			<!--window name="windowCraftingQueue"/--> <!--Stock-->
-			<window name="S420windowCraftingQueue"/>
+			<window name="windowCraftingQueue"/>
 			<window name="windowFuel" />
-			<!--window name="windowOutput" /--> <!--Stock-->
-			<window name="S420windowOutput" />
-<!-- S420 End -->
+			<window name="windowOutput" />
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
 		<window_group name="looting" left_panel_valign_top="false" controller="XUiC_LootWindowGroup">
-<!-- S420 Start -->
-			<!--window name="windowLooting"/--> <!--Stock-->
-			<window name="S420windowLooting"/>
-<!-- S420 End -->
+			<window name="windowLooting"/>
 			<window name="windowNonPagingHeader" />
 		</window_group>
 		
@@ -111,12 +106,8 @@
 		</window_group>
 		
 		<window_group name="compass" actionSet="false">
-<!-- S420 Start -->
-			<!--window name="windowCompass" /--> <!--Stock-->
-			<window name="S420windowCompass" />
-			<window name="S420ActiveBuffsWindow" anchor="LeftBottom" /> <!-- buff timers - placed here so it disappears when compass does -->
-			<window name="S420windowQuestTracker" anchor="RightTop" /> <!-- placed here so it disappears when compass does -->
-<!-- S420 End -->
+			<window name="windowCompass" />
+			<window name="HUDInfoPanel"/>								<!-- 1) added: day, time, world temperature and elevation indicators (top left) -->
 		</window_group>
 		
 		<window_group name="toolTip" actionSet="false">
@@ -137,28 +128,20 @@
 		</window_group>
 		
 		<window_group name="toolbelt" actionSet="false">
-<!-- S420 Start -->
-			<window name="S420XpBar" anchor="CenterBottom" />
-			<!--window name="windowToolbelt" anchor="CenterBottom" /--> <!--Stock-->
-			<window name="S420windowToolbelt" anchor="CenterBottom" />
-			<!--window name="HUDLeftStatBars" anchor="LeftBottom" /--> <!--Stock-->
-			<window name="S420HUDLeftStatBars" anchor="LeftBottom" />
-			<!--window name="S420BuffPopoutList" anchor="LeftBottom" /--> <!-- stock like buff list -->
+			<window name="HUDTempWaterFood"/>							<!-- 2) added: feels like -temperature, water and food indicators (bottom left) -->
+			<window name="HUDXpBar" />									<!-- 3) added: player level indicator, experience bar and toolbelt numbers (bottom center)  -->
+			<window name="HUDBuffDurations"/>							<!-- 4) added: buff durations (middle center)  -->
+			<window name="windowToolbelt" anchor="CenterBottom" />
+			<window name="HUDLeftStatBars" anchor="LeftBottom" />
 			<window name="HUDRightStatBars" anchor="RightBottom" />
-			<!--window name="windowQuestTracker" anchor="RightTop" /--> <!--Stock-->
-<!-- S420 End -->
+			<window name="windowQuestTracker" anchor="RightTop" />
 		</window_group>
 		
 		<window_group name="vehicle" controller="XUiC_VehicleWindowGroup">
-<!-- S420 Start -->
-			<!--window name="windowVehicle"/--> <!--Stock-->
-			<window name="S420windowVehicle"/>
+			<window name="windowVehicle"/>
 			<window name="windowNonPagingHeader" />
-			<!--window name="windowVehicleStats" /--> <!--Stock-->
-			<window name="S420windowVehicleStats" />
-			<!--window name="windowVehicleStorage" /--> <!--Stock-->
-			<window name="S420windowVehicleStorage" />
-<!-- S420 End -->
+			<window name="windowVehicleStats" />
+			<window name="windowVehicleStorage" />
 		</window_group>
 		
 		<window_group name="windowpaging" actionSet="false">

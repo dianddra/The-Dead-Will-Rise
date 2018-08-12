@@ -48,16 +48,6 @@
 						<reward type="Item" id="antibiotics" value="1" />
 						<reward type="Item" id="animalHidePoncho"  />
 						<reward type="Item" id="leatherDuster"  />
-						<reward type="Item" id="minibikeChassis" />
-						<reward type="Item" id="minibikeSeat"  />
-						<reward type="Item" id="minibikeWheels" />
-						<reward type="Item" id="padlock" />
-						<reward type="Item" id="minibikeHandlebars"  />
-						<reward type="Item" id="shoppingBasketItem" />
-						<reward type="Item" id="carBattery" />
-						<reward type="Item" id="smallEngine" />
-						<reward type="Item" id="gasCan" value="1000"/>
-						<reward type="Item" id="minibikesForDumbshits" />
 						
 		<reward type="SkillPoints" value="5" />
 		<reward type="ShowTip" value="skillPointTip" stage="aftercomplete" />
