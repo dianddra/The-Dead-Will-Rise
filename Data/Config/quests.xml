@@ -37,6 +37,9 @@
 						<reward type="Item" id="bottledWater" value="9" />
 						<reward type="Item" id="canBeef" value="9" />
 						<reward type="Item" id="AxeOfDestruction"  />
+						<reward type="Item" id="clubBarbed" />
+						<reward type="Item" id="woodenBow" />
+						<reward type="Item" id="arrow" value="250" />
 						<reward type="Item" id="torch" value="9"/>
 						<reward type="Item" id="firstAidBandage" value="9" />
 						<reward type="Item" id="antibiotics" value="1" />
