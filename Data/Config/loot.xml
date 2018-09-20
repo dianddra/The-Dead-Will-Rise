@@ -2228,19 +2228,19 @@
 </lootcontainer>
 
 	<lootcontainer id="100" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="casinoCoin" count="100"  />		
+		<item name="casinoCoin" count="50"  />		
 	</lootcontainer>
 	<lootcontainer id="101" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="casinoCoin" count="150"  />
+		<item name="casinoCoin" count="75"  />
 	</lootcontainer>
 	<lootcontainer id="102" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="casinoCoin" count="200"  />
+		<item name="casinoCoin" count="100"  />
 	</lootcontainer>
 	<lootcontainer id="103" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="casinoCoin" count="250" />
+		<item name="casinoCoin" count="125" />
 	</lootcontainer>
 	<lootcontainer id="104" count="2" size="4,3" destroy_on_close="true" sound_open="UseActions/open_corpse" sound_close="UseActions/close_corpse" loot_quality_template="baseTemplate">
-		<item name="casinoCoin" count="300"  />
+		<item name="casinoCoin" count="150"  />
 	</lootcontainer>
 	
 </lootcontainers>
